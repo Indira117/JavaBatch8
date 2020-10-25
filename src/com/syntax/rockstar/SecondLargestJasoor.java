@@ -1,6 +1,6 @@
 package com.syntax.rockstar;
 
-public class SecondLargest {
+public class SecondLargestJasoor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
