@@ -32,7 +32,7 @@ public class contries {
 				sum++;
 		}System.out.println();
 		
-		}System.out.println("Contries "+sum);
+		}System.out.println("Sum of all odd numbers "+sum);
 	
 	
 	

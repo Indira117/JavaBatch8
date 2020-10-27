@@ -51,6 +51,16 @@ public class swap {
 			}
 			System.out.println();
 		}
+	
+	System.out.println("--------------------------------------------------");
+	int x=5;
+	   int y=8;
+	   x=y+x;
+	   y=x-y;
+	   x=x-y;
+	   System.out.println("x=" +x);
+	   System.out.println("y="+y);
+	
 	}
 
 	}
