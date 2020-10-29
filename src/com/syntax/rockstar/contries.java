@@ -13,12 +13,14 @@ public class contries {
 				{"Egypt","Nigeria","Morocco"}
 			};
 	
-		int sum=0;
+		int sum=0,sum1=0;
 		System.out.println("****2D Array 1 way*****");
 		System.out.println();
 		for(String[] loop:contries) {
 			for (String lo:loop) {
 				System.out.print(lo+"   ");
+				sum1++;
+				System.out.println("Contries "+sum1);
 			}System.out.println();
 		}			
 		
@@ -32,7 +34,7 @@ public class contries {
 				sum++;
 		}System.out.println();
 		
-		}System.out.println("Sum of all odd numbers "+sum);
+		}System.out.println("Contries "+sum);
 	
 	
 	

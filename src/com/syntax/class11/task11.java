@@ -46,7 +46,13 @@ for(String [] car1:arrays) {
 
 
 
+int []number={45,78,12,67,55,89,23,77,88};
 
+for (i=0; i>=number.length; i++){
+ 
+  if ((number[i]%2)==0){
+    System.out.println(number[i]);
+  }
 
 
 
@@ -66,6 +72,6 @@ for(String [] car1:arrays) {
 	}
 	
 
-	}
+	}}
 
 
