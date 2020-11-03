@@ -31,7 +31,7 @@ public class contries {
 			for (int j=0;j<contries[i].length;j++) {				
 				
 				System.out.print(contries[i][j]+"  ");
-				sum++;
+				++sum;
 		}System.out.println();
 		
 		}System.out.println("Contries "+sum);
