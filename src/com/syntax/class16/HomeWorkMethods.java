@@ -1,5 +1,4 @@
 package com.syntax.class16;
-
 public class HomeWorkMethods { //Task1
     public void creatEmail(String name, String Fname){
         System.out.println(name.concat(Fname)+"@gmail.com");
@@ -14,13 +13,10 @@ public class HomeWorkMethods { //Task1
                 if (number % i == 0) {
                     System.out.println(number + " is not a prime number.");
                     num = 1;
-                    break;
-                }
+                    break; }
             }
             if (num == 0) {
-                System.out.println(number + " is a prime number.");
-            }
-        }
+                System.out.println(number + " is a prime number.");}}
     }
 public void getGrade(int grade){ //Task3
         if(grade>=90){
